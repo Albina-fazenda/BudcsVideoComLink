@@ -123,7 +123,8 @@ function mostrarvideo(data){
 
         pagina = data[i].link[ii];
         
-        var link = '<a href="' +data[0].pdf+'='+pagina+'">'+manual+'</a><br>';
+        var link = '<a href="https://files.support.epson.com/docid/cpd5/cpd55467.pdf#page='+pagina+'">'+manual+'</a><br>';
+
         
         l.insertAdjacentHTML('beforeend', link);
         n.appendChild(l);
