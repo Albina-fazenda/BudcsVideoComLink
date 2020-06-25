@@ -123,7 +123,7 @@ function mostrarvideo(data){
 
         pagina = data[i].link[ii];
         
-        var link = '<a href="https://images.colombo.com.br/produtos/785977/785977_1483620791222.pdf#page='+pagina+'">'+manual+'</a><br>';
+        var link = '<a href="' +data[0].pdf+'='+pagina+'">'+manual+'</a><br>';
         
         l.insertAdjacentHTML('beforeend', link);
         n.appendChild(l);
